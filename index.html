@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.cdnfonts.com/css/bebas-neue" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/proxima-nova-2" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+<body>
+<!--.pipe(scss({outputStyle: 'compressed'}))-->
+<header>
+    <div class="wrap">
+        <div class="header">
+            <div class="header__left">
+                <div class="header__button-container mr-8">
+                    <button class="header__button"></button>
+                </div>
+                <div class="logo">
+                    <img class="logo__img" src="./images/logo.svg" alt="logo">
+                </div>
+            </div>
+            <div class="header__right">
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <span class="signature">Пишите нам на email</span>
+                            <a class="mail" href="#">
+                                <span class="mail__badge"><i class="fas fa-envelope"></i></span>
+                                info@diagnistics.by
+                            </a>
+                        </li>
+                        <li class="header__nav-item">
+                            <span class="signature">
+                                <span class="signature__badge"><i class="fas fa-phone-alt"></i></span> Есть вопросы? Звоните!
+                            </span>
+                            <a class="phone" href="#">+375 (29) 456-45-45</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="survey">
+        <div class="wrap">
+            <div class="survey__main">
+                <div class="survey_left">
+                    <h1 class="survey__title">
+                        Независимое обследование
+                        зданий и сооружений
+                    </h1>
+                    <h3 class="survey__subtitle">
+                        антенн, труб, теплосетей, канализаций
+                        и других объектов строительства
+                    </h3>
+                </div>
+                <div class="survey__right">
+                    <a class="download mb-40" href="#">
+                        <span class="budge">
+                           <i class="fas fa-download"></i>
+                        </span>
+                        получить коммерческое
+                    </a>
+                    <p class="survey__download-subtitle">
+                        Отправьте техзадание и получите коммерческое предложение в течении 15 минут на свой email или в мессенджер
+                    </p>
+                </div>
+            </div>
+            <div class="survey__footer">
+                <div class="survey__dignity">
+                    <ul class="survey__list">
+                        <li class="survey__item">
+                            <span class="survey__item-badge">01</span>
+                            <p class="survey__item-text">Начинаем работать без аванса</p>
+                        </li>
+                        <li class="survey__item">
+                            <span class="survey__item-badge">02</span>
+                            <p class="survey__item-text">Предоставляем отсрочку платежа</p>
+                        </li>
+                        <li class="survey__item">
+                            <span class="survey__item-badge">03</span>
+                            <p class="survey__item-text">Всегда называем справедливую цену</p>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="survey__video">
+                        <img class="survey__video-icon" src="images/video-icon.png" alt="icon">
+                        <a class="survey__video-link" href="#"><i class="fas fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="benefits">
+        <div class="wrap">
+            <div class="benefits__main">
+                <div class="benefits__left">
+                    <div class="benefits__content">
+                        <h2 class="benefits__title">
+                            Мы работаем быстро <br>
+                            и наши отчеты проходят согласование с первого раза
+                        </h2>
+                        <h3 class="benefits__subtitle">
+                            Над вашим объектом работает целая команда:
+                            3 ГИПа (главных инженеров проектов) с опытом работы от 6 лет и 2 штатных сотрудника для камеральных работ
+                        </h3>
+                    </div>
+                </div>
+                <div class="benefits__midl">
+                    <img class="" src="images/section-2.png" alt="section">
+                </div>
+                <div class="benefits__right">
+                    <div class="benefits__content">
+                        <h4 class="benefits__title-list">
+                            Вы и Ваши архитекторы получаете:
+                        </h4>
+                        <ul class="benefits__list">
+                            <li class="benefits__item">
+                                Отчет на который на 100% можно положиться
+                            </li>
+                            <li class="benefits__item">
+                                Экономию времени и прогнозируемость сроков
+                            </li>
+                            <li class="benefits__item">
+                                Предварительные результаты сразу на месте
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="benefits-bg"></div>
+    </section>
+    <section class="services">
+        <div class="wrap mb-4">
+            <h2 class="services__title">Услуги</h2>
+            <h3 class="services__subtitle">Выполняем как комплексное обследование, так и отдельные виды работ</h3>
+        </div>
+        <div class="slider-container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div class="slide__section">
+                                <div class="slide__img">
+                                    <img src="./images/slide-1.png" alt="slide-1">
+                                </div>
+                                <h4 class="slide__title">Общее обследование</h4>
+                                <p class="slide__text">
+                                    Экспертиза отдельных конструкций, обмерные работы, определение прочности, расчет несущей способности
+                                    и т.д.
+                                </p>
+                            </div>
+                            <a class="slide__more" href="#">Подробнее <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div class="slide__section">
+                                <div class="slide__img">
+                                    <img src="./images/slide-2.png" alt="slide-1">
+                                </div>
+                                <h4 class="slide__title">Тепловизионная съемка</h4>
+                                <p class="slide__text">
+                                    Исследование системы отопления, вентиляции
+                                    и кондиционирования, а также оценка энергоэффективности здания
+                                </p>
+                            </div>
+                            <a class="slide__more" href="#">Подробнее <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div class="slide__section">
+                                <div class="slide__img">
+                                    <img src="./images/slide-3.png" alt="slide-1">
+                                </div>
+                                <h4 class="slide__title">Телеинспекция инженерных сетей</h4>
+                                <p class="slide__text">
+                                    Цветная телевизионная съемка внутренней поверхности любых протяженных объектов
+                                    до 250 метров
+                                </p>
+                            </div>
+                            <a class="slide__more" href="#">Подробнее <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div class="slide__section">
+                                <div class="slide__img">
+                                    <img src="./images/slide-4.png" alt="slide-1">
+                                </div>
+                                <h4 class="slide__title">Тахеометрическая съемка</h4>
+                                <p class="slide__text">
+                                    Построение чертежей при помощи лазера, который с точностью до микрона определяет расположение объектов в пространстве
+                                </p>
+                            </div>
+                            <a class="slide__more" href="#">Подробнее <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div class="slide__section">
+                                <div class="slide__img">
+                                    <img src="./images/slide-1.png" alt="slide-1">
+                                </div>
+                                <h4 class="slide__title">Общее обследование</h4>
+                                <p class="slide__text">
+                                    Экспертиза отдельных конструкций, обмерные работы, определение прочности, расчет несущей способности
+                                    и т.д.
+                                </p>
+                            </div>
+                            <a class="slide__more" href="#">Подробнее <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div class="slide__section">
+                                <div class="slide__img">
+                                    <img src="./images/slide-2.png" alt="slide-1">
+                                </div>
+                                <h4 class="slide__title">Тепловизионная съемка</h4>
+                                <p class="slide__text">
+                                    Исследование системы отопления, вентиляции
+                                    и кондиционирования, а также оценка энергоэффективности здания
+                                </p>
+                            </div>
+                            <a class="slide__more" href="#">Подробнее <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div class="slide__section">
+                                <div class="slide__img">
+                                    <img src="./images/slide-3.png" alt="slide-1">
+                                </div>
+                                <h4 class="slide__title">Телеинспекция инженерных сетей</h4>
+                                <p class="slide__text">
+                                    Цветная телевизионная съемка внутренней поверхности любых протяженных объектов
+                                    до 250 метров
+                                </p>
+                            </div>
+                            <a class="slide__more" href="#">Подробнее <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div class="slide__section">
+                                <div class="slide__img">
+                                    <img src="./images/slide-4.png" alt="slide-1">
+                                </div>
+                                <h4 class="slide__title">Тахеометрическая съемка</h4>
+                                <p class="slide__text">
+                                    Построение чертежей при помощи лазера, который с точностью до микрона определяет расположение объектов в пространстве
+                                </p>
+                            </div>
+                            <a class="slide__more" href="#">Подробнее <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div class="slide__section">
+                                <div class="slide__img">
+                                    <img src="./images/slide-1.png" alt="slide-1">
+                                </div>
+                                <h4 class="slide__title">Общее обследование</h4>
+                                <p class="slide__text">
+                                    Экспертиза отдельных конструкций, обмерные работы, определение прочности, расчет несущей способности
+                                    и т.д.
+                                </p>
+                            </div>
+                            <a class="slide__more" href="#">Подробнее <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div class="slide__section">
+                                <div class="slide__img">
+                                    <img src="./images/slide-2.png" alt="slide-1">
+                                </div>
+                                <h4 class="slide__title">Тепловизионная съемка</h4>
+                                <p class="slide__text">
+                                    Исследование системы отопления, вентиляции
+                                    и кондиционирования, а также оценка энергоэффективности здания
+                                </p>
+                            </div>
+                            <a class="slide__more" href="#">Подробнее <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div class="slide__section">
+                                <div class="slide__img">
+                                    <img src="./images/slide-3.png" alt="slide-1">
+                                </div>
+                                <h4 class="slide__title">Телеинспекция инженерных сетей</h4>
+                                <p class="slide__text">
+                                    Цветная телевизионная съемка внутренней поверхности любых протяженных объектов
+                                    до 250 метров
+                                </p>
+                            </div>
+                            <a class="slide__more" href="#">Подробнее <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div class="slide__section">
+                                <div class="slide__img">
+                                    <img src="./images/slide-4.png" alt="slide-1">
+                                </div>
+                                <h4 class="slide__title">Тахеометрическая съемка</h4>
+                                <p class="slide__text">
+                                    Построение чертежей при помощи лазера, который с точностью до микрона определяет расположение объектов в пространстве
+                                </p>
+                            </div>
+                            <a class="slide__more" href="#">Подробнее <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination position-relative bg-transparent"></div>
+    </section>
+    <section  class="work">
+        <div class="wrap">
+            <h2 class="work__title">Мы работаем в комплексе</h2>
+            <h3 class="work__subtitle">
+                чтобы Вы не тратили время на поиск и организацию
+                множества подрядчиков
+            </h3>
+        </div>
+    </section>
+    <section class="step_1">
+        <div class="step_1__bg">
+            <div class="step_1__bg-1">
+                <div class="swiper step-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="step-slider__item">
+                                <img class="step-slider__img" src="images/stap-1-1.png" alt="stap">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="step-slider__item">
+                                <img class="step-slider__img" src="images/stap-1-1.png" alt="stap">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="step-slider__item">
+                                <img class="step-slider__img" src="images/stap-1-1.png" alt="stap">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="step-slider__item">
+                                <img class="step-slider__img" src="images/stap-1-1.png" alt="stap">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-slider-pagination"></div>
+                </div>
+
+            </div>
+            <div class="step_1__bg-2">
+                <div class="wrap-50">
+                    <div class="step_1__content">
+                        <div class="step_1__right">
+                            <div class="step_1__title-container">
+                                <h2 class="step_1__title">
+                                    <span class="step_1__badge">шаг №1. </span>
+                                    Подготовительные работы
+                                </h2>
+                                <p class="step_1__description">
+                                    Мы осматриваем здание, делаем замеры и проверяем наличие визуально заметных дефектов: трещин, коррозии, повреждения фундамента и т.д.
+                                </p>
+                            </div>
+                            <div class="step_1__worker worker">
+                                <div class="worker__icon-container">
+                                        <img class="worker__icon" src="images/video-icon.png" alt="user">
+                                </div>
+                                <div class="worker__description">
+                                    <p class="worker__text">
+                                        <i>
+                                            “Задача этого этапа получить максимально полное представление о конструкции здания, условиях его эксплуатации и возможных слабых местах“
+                                        </i>
+                                    </p>
+                                    <h4 class="worker__subtitle">
+                                        <span>Алексей</span>, обследователь и главный инженер проектов
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<script src="https://kit.fontawesome.com/a4d7d73057.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/main.min.js"></script>
+
+
+
+</body>
+</html>
